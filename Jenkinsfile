@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Building C++ Project...'
-                    sh 'g++ -o PES2UG22CS002-1 PES2UG22CS002-1.cpp'  
+                    sh 'g++ -o PES2UG22CS002-1 PES2UG22CS002-.cpp'  
                 }
             }
         }
